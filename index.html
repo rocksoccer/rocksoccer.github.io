@@ -4,6 +4,19 @@ title: Your New Jekyll Site
 ---
 
 <div id="home">
+  <div><script>
+  (function() {
+    var cx = '003728890536231873042:hc0wqm2uzwg';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only></div>
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
